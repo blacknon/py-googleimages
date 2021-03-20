@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="googleimages",
-    version="0.0.1",
+    version="0.0.2",
     author="Akmal",
     author_email="akmal@depia.wiki",
     description="Unofficial packages to find images from Google",
