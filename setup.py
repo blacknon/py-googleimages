@@ -4,7 +4,7 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setuptools.setup(
-    name="googleimages",  # Replace with your own username
+    name="googleimages",
     version="0.0.1",
     author="Akmal",
     author_email="akmal@depia.wiki",
@@ -20,6 +20,6 @@ setuptools.setup(
     install_requires=[
         "httpx==0.17.1",
     ],
-    packages=setuptools.find_packages(where="googleimages"),
+    packages=setuptools.find_packages(),
     python_requires=">=3.6",
 )
