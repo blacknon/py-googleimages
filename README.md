@@ -6,6 +6,12 @@
 
 - It works!
 
+## Installation
+
+```bash
+$ pip install git+https://github.com/Wikidepia/py-googleimages
+```
+
 ## Usage
 
 ```python
